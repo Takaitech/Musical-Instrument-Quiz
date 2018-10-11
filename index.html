@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sounds Of Musical Instruments Challenge</title>
+	<meta name="description" content="Test your skill of identifying musical instruments by ear ">
+	<link href="index.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Questrial|Varela+Round" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="datastore.js"></script>
+	<script src="index.js"></script>
+</head>
+
+<body>
+	<header class="row" role="banner">
+		<div id="instrument" class="col-4" class="numberStats">
+			<span>Instruments: <span class="questionNumber">1</span>/10
+			</span>
+    </div>
+    <div class="col-4" id="logo">
+			<a href="https://My-QUIZ-APP--takaimusic.repl.co">
+					<img src="https://image.flaticon.com/icons/svg/106/106109.svg" alt="Sound Wave Logo">
+			</a>
+		</div>
+    <div id="score" class="col-4" class="scoreStats">
+			<span>Correct Answers: <span class="score">0</span>
+			</span>
+    </div>
+	</header>
+
+	<!-- Start Page -->
+	<main role="main">
+		<div class="startQuiz">
+			<button type="button" class="startButton">Click To Start</button>
+			<h1>Prepare to test your ability of identifying<br> musical instruments by sound!</h1>
+			<p>
+				<audio id="testSound">
+					<source src="audio/120114__sbarncar__leftright1648 (1).mp3" type="audio/mpeg" />
+				</audio>
+				<a href="#" class="soundTest">
+					<img src="https://image.flaticon.com/icons/png/256/84/84922.png" alt="Speaker With Sound Waves"></a>
+				<br> 〔Click to test sound〕<br>
+			</p>
+		</div>
+		<div class="questionPage">
+		</div>
+	</main>
+	<footer role="contentinfo">
+		<div class="credits">
+			<p>
+				Instrument icons & logo designed by:<br>
+				<a class="creditLink" href="https://www.flaticon.com/authors/freepik/">freepik
+				</a>
+				from Flaticon.
+			</p>
+		</div>
+	</footer>
+</body>
+
+</html>
